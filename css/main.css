@@ -147,5 +147,14 @@
   /* Small devices (tablets, 768px and up) */
   @media (min-width:768px)  {
 
-    
+  /*HEADER*/
+    #logo {
+      text-align: left;
+    }
+    header .row {
+      padding: 42px 21px;
+    }
+    header ul > li {
+      font-size: 17px;
+    }
    }
