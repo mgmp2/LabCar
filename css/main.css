@@ -105,7 +105,9 @@
 }
 
 /*TARIFA*/
-
+  #rate {
+    padding: 56px 0;
+  }
   #rate * {
     color: #fff;
   }
@@ -127,6 +129,9 @@
     font-size: 18px;
   }
 /*FOOTER*/
+  footer {
+    padding: 64px 0;
+  }
   footer * {
     color: #fff;
   }
@@ -142,23 +147,111 @@
   }
   footer img {
     margin: 14px 0;
-    width: 133px;
+    width: 117px;
+  }
+  #footer-icons, #footer-logo {
+    display: inline-table!important;
   }
   /* Small devices (tablets, 768px and up) */
   @media (min-width:768px)  {
-  /*INFO*/
-    #info .container, #info .container > div:first-child {
-      margin-left: 0;
-      padding-left: 0;
-      border-left: none;
-    }
+  /*GENERAL*/
     h3 {
       font-size: 28px;
     }
     p {
       font-size: 20px;
     }
+
+  /*HEADER*/
+    #logo {
+      text-align: left;
+    }
+    header .row {
+      padding: 42px 21px;
+    }
+    header ul > li {
+      font-size: 17px;
+    }
+  /*BANNER*/
+    #banner {
+      background-position: center 91%;
+      height: 637px;
+    }
+    #banner .container {
+      margin: 0;
+      width: 100%;
+    }
+    #logo-blanco {
+      top: 21px;
+    }
+    #banner .line > hr{
+      width: 113px;
+      display: inline-block;
+      height: 20px;
+      background-color: rgba(255, 255, 255, 0);
+      border: none;
+      border-bottom: 1px solid #fff;
+      margin: 2px 46px;
+    }
+  /*INFO*/
+    #info .container, #info .container > div:first-child {
+      margin-left: 0;
+      padding-left: 0;
+      border-left: none;
+    }
+
     #info img {
       width: 21em;
+    }
+  /*DRIVER*/
+    #driver {
+      height: 448px;
+      background-position-y: 58%;
+    }
+    #driver > .container {
+      background: none;
+      margin-right: 0;
+      padding: 0;
+    }
+    #driver .row {
+      width: 40%;
+      height: 100%;
+      float: right;
+      margin-right: 0;
+      padding-top: 77px;
+      background-color: rgba(0, 0, 0, 0.33);
+    }
+  /*RATE*/
+    .form-input {
+      width: 50%;
+    }
+    .box-btn {
+      width: 65%;
+    }
+    #map {
+      width: 100%;
+      height: 60vh;
+      border: 1px solid #fff;
+    }
+    #map * {
+      color: #000;
+    }
+  /*FOOTER*/
+
+    #footer-first {
+      height: 60vh;
+    }
+    #footer-first ul {
+      position: absolute;
+      bottom: 0;
+    }
+    #footer-logo * {
+      display: block;
+    }
+    #footer-icons {
+      display: none!important;
+    }
+    #footer-logo {
+      top: 245px;
     }
    }
