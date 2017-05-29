@@ -129,6 +129,9 @@
     font-size: 18px;
   }
 /*FOOTER*/
+  footer {
+    padding: 64px 0;
+  }
   footer * {
     color: #fff;
   }
@@ -234,9 +237,7 @@
       color: #000;
     }
   /*FOOTER*/
-    footer {
-      padding: 64px 0;
-    }
+
     #footer-first {
       height: 60vh;
     }
