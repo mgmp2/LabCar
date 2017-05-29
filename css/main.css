@@ -26,7 +26,10 @@ footer * {
   display: flex;
   justify-content: space-around;
 }
+footer ul > li {
+  padding: 14px 0;
+}
 footer img {
   margin: 14px 0;
-  width: 98px;
+  width: 133px;
 }
