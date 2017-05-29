@@ -146,6 +146,19 @@
   }
   /* Small devices (tablets, 768px and up) */
   @media (min-width:768px)  {
-
-    
+  /*INFO*/
+    #info .container, #info .container > div:first-child {
+      margin-left: 0;
+      padding-left: 0;
+      border-left: none;
+    }
+    h3 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 20px;
+    }
+    #info img {
+      width: 21em;
+    }
    }
