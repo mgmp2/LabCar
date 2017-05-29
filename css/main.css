@@ -146,6 +146,13 @@
   }
   /* Small devices (tablets, 768px and up) */
   @media (min-width:768px)  {
+  /*GENERAL*/
+    h3 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 20px;
+    }
 
   /*HEADER*/
     #logo {
@@ -184,14 +191,26 @@
       padding-left: 0;
       border-left: none;
     }
-    h3 {
-      font-size: 28px;
-    }
-    p {
-      font-size: 20px;
-    }
+
     #info img {
       width: 21em;
     }
+  /*DRIVER*/
+    #driver {
+      height: 448px;
+      background-position-y: 58%;
+    }
+    #driver > .container {
+      background: none;
+      margin-right: 0;
+      padding: 0;
+    }
+    #driver .row {
+      width: 40%;
+      height: 100%;
+      float: right;
+      margin-right: 0;
+      padding-top: 77px;
+      background-color: rgba(0, 0, 0, 0.33);
+    }
    }
-   
