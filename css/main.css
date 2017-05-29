@@ -2,3 +2,19 @@
   box-sizing: border-box;
   margin: 0;
 }
+/*BANNER */
+#banner {
+  background-image: url("../assets/images/taxi.jpg");
+  background-repeat: no-repeat;
+  height: 560px;
+  background-size: cover;
+  border: 1px solid #000;
+}
+#download-app [class*="col-xs-10"]{
+  background: #F7B617;
+  top: 155px;
+  padding: 35px;
+}
+ #download-app .btn-download {
+   padding-top: 35px;
+ }
