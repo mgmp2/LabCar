@@ -14,3 +14,19 @@
  .w-700 {
     font-weight: 700;
 }
+.bg-gris {
+  background-color: #2b2b2b;
+
+}
+/*FOOTER*/
+footer * {
+  color: #fff;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+footer img {
+  margin: 14px 0;
+  width: 98px;
+}
