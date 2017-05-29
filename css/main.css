@@ -9,6 +9,7 @@
 /*GENERAL*/
   .color-lab {
     background-color: #f7b617;
+    color: #fff;
   }
   h3, [type="button"] {
     font-family: 'Raleway', sans-serif;
@@ -46,7 +47,9 @@
     height: 560px;
     background-size: cover;
   }
-
+  #banner * {
+    font-family: 'Raleway', sans-serif;
+  }
   #download-app [class*="col-xs-10"]{
     top: 155px;
     padding: 35px;
@@ -118,6 +121,7 @@
   #rate [type="button"] {
     color: #000;
     margin: 21px 0;
+
   }
   #rate p {
     font-size: 18px;
