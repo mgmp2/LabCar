@@ -1,59 +1,76 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
-* {
+  * {
     box-sizing: border-box;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-}
+  }
 
 /*GENERAL*/
- .color-lab {
+  .color-lab {
     background-color: #f7b617;
   }
- h3, [type="button"] {
+  h3, [type="button"] {
     font-family: 'Raleway', sans-serif;
- }
- .w-700 {
+  }
+  .w-700 {
     font-weight: 700;
-}
+  }
 
 /*HEADER*/
-header .row {
-  padding: 28px 21px;
-}
+  header .row {
+    padding: 28px 21px;
+  }
 
-header #menu{
-  font-size: 21px;
-  color: #888888;
-}
-header #menu-item {
-  padding: 0;
-  border-top: 1px solid #e5e5e5;
-  font-family: 'Open Sans', sans-serif;
+  header #menu{
+    font-size: 21px;
+    color: #888888;
+  }
 
-}
-header #menu-item li > a {
-  color: #000;
-  padding-top: 28px;
-  padding-bottom: 28px;
+  header #menu-item {
+    padding: 0;
+    border-top: 1px solid #e5e5e5;
+    font-family: 'Open Sans', sans-serif;
+  }
 
-}
+  header #menu-item li > a {
+    color: #000;
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+
 /*BANNER */
-#banner {
-  background-image: url("../assets/images/taxi.jpg");
-  background-repeat: no-repeat;
-  height: 560px;
-  background-size: cover;
+  #banner {
+    background-image: url("../assets/images/taxi.jpg");
+    background-repeat: no-repeat;
+    height: 560px;
+    background-size: cover;
+  }
 
-}
-#download-app [class*="col-xs-10"]{
-  top: 155px;
-  padding: 35px;
-  font-family: 'Raleway', sans-serif;
-}
- #download-app .btn-download {
-   padding-top: 35px;
- }
-#download-app [type="button"] {
-  font-size: 19px;
-}
+  #download-app [class*="col-xs-10"]{
+    top: 155px;
+    padding: 35px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  #download-app .btn-download {
+    padding-top: 35px;
+  }
+
+  #download-app [type="button"] {
+    font-size: 19px;
+  }
+
+ /*INFO*/
+  #info * {
+    color: #fff;
+  }
+
+  #info .container > div:first-child {
+    border: 1px solid #fff;
+    margin: 14px;
+  }
+
+  #info .row {
+    padding: 21px 14px;
+  }
