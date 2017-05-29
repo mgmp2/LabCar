@@ -91,28 +91,33 @@
     </section>
     <!-- TARIFA  -->
     <section id="rate" class="color-lab">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h3 class="w-700">Tarifas</h3>
-            <p>Consulta las tarifas LabCar aquí </p>
-          </div>
-          <div class="col-xs-12">
-            <img src="assets/images/circulo.png" alt="punto partida">
-            <input type="text" class="form-input color-lab" id="input-partida" placeholder="Ingrese punto de partida">
-          </div>
-          <div class="col-xs-12">
-            <img src="assets/images/flecha.png" alt="punto destino">
-            <input type="text" class="form-input color-lab" id="input-destino" placeholder="Ingrese un destino">
-          </div>
-          <div class="col-xs-12 text-center" >
-            <button type="button" class="btn btn-default w-700">!TRAZAR RUTA!</button>
-          </div>
-          <div class="col-xs-12" id="tarifa">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <h3 class="w-700">Tarifas</h3>
+                    <p>Consulta las tarifas LabCar aquí </p>
+                    <div class="box-partida">
+                        <img src="assets/images/circulo.png" alt="punto partida">
+                        <input type="text" class="form-input color-lab" id="input-partida" placeholder="Ingrese punto de partida">
+                    </div>
+                    <div class="box-destino">
+                        <img src="assets/images/flecha.png" alt="punto destino">
+                        <input type="text" class="form-input color-lab" id="input-destino" placeholder="Ingrese un destino">
+                    </div>
+                    <div class="box-btn text-center">
+                        <button type="button" class="btn btn-default w-700">!TRAZAR RUTA!</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 hidden-xs">
+                    <div id="map">
 
+                    </div>
+                </div>
+                <div class="col-xs-12" id="tarifa">
+
+                </div>
           </div>
         </div>
-      </div>
     </section>
     <!-- FOOTER -->
     <footer class="bg-gris">
@@ -167,6 +172,9 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
       <!-- Incluir todos tus scripts apartir de este punto -->
        <script src="js/bootstrap.min.js"></script>
+       <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEqJ6tPZQGge_b89ln9oLrz9lmpPhbelU&callback=initMap&libraries=places">
+    </script>
        <script src="js/app.js"></script>
    </body>
    </html>

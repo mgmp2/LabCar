@@ -105,7 +105,9 @@
 }
 
 /*TARIFA*/
-
+  #rate {
+    padding: 56px 0;
+  }
   #rate * {
     color: #fff;
   }
@@ -146,6 +148,19 @@
   }
   /* Small devices (tablets, 768px and up) */
   @media (min-width:768px)  {
-
-    
+  /*RATE*/
+    .form-input {
+      width: 50%;
+    }
+    .box-btn {
+      width: 65%;
+    }
+    #map {
+      width: 100%;
+      height: 60vh;
+      border: 1px solid #fff;
+    }
+    #map * {
+      color: #000;
+    }
    }
