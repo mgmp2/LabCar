@@ -61,7 +61,7 @@
     font-size: 19px;
   }
 
- /*INFO*/
+/*INFO*/
   #info * {
     color: #fff;
   }
@@ -73,4 +73,30 @@
 
   #info .row {
     padding: 21px 14px;
+  }
+
+/*DRIVER */
+  #driver {
+    background-image: url(../assets/images/conduce.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 242px;
+  }
+
+  #driver * {
+    color: #fff;
+  }
+  #driver > .container {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.33);
+    padding: 30px 14px;
+  }
+  #driver p, #driver [type="button"] {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+  }
+  #driver [type="button"] {
+    border: none;
+    border-radius: 12px;
+    padding: 9px 14px;
   }
