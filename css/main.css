@@ -144,3 +144,8 @@
     margin: 14px 0;
     width: 133px;
   }
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width:768px)  {
+
+    
+   }
