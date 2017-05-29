@@ -2,10 +2,28 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 /*GENERAL*/
-/*font-family: 'Open Sans', sans-serif;*/
-/*font-family: 'Raleway', sans-serif;*/
-.color-lab {
-  background-color: #f7b617;
+
+  .color-lab {
+    background-color: #f7b617;
+  }
+ h3, [type="button"] {
+   font-family: 'Raleway', sans-serif;
+ }
+.w-700 {
+  font-weight: 700;
+}
+ /*INFO*/
+ #info * {
+   color: #fff;
+ }
+ #info .container > div:first-child {
+   border: 1px solid #fff;
+   margin: 14px;
+ }
+#info .row {
+  padding: 21px 14px;
+  
 }
