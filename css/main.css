@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
 * {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 /*GENERAL*/
 
-  .color-lab {
+ .color-lab {
     background-color: #f7b617;
   }
  h3, [type="button"] {
-   font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
  }
-.w-700 {
-  font-weight: 700;
+ .w-700 {
+    font-weight: 700;
 }
  /*INFO*/
  #info * {
-   color: #fff;
+    color: #fff;
  }
  #info .container > div:first-child {
-   border: 1px solid #fff;
-   margin: 14px;
+    border: 1px solid #fff;
+    margin: 14px;
  }
-#info .row {
-  padding: 21px 14px;
-  
+ #info .row {
+    padding: 21px 14px;
+
 }
