@@ -178,4 +178,20 @@
       border-bottom: 1px solid #fff;
       margin: 2px 46px;
     }
+  /*INFO*/
+    #info .container, #info .container > div:first-child {
+      margin-left: 0;
+      padding-left: 0;
+      border-left: none;
+    }
+    h3 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 20px;
+    }
+    #info img {
+      width: 21em;
+    }
    }
+   
