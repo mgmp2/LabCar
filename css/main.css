@@ -122,3 +122,21 @@
   #rate p {
     font-size: 18px;
   }
+/*FOOTER*/
+  footer * {
+    color: #fff;
+  }
+  .bg-gris {
+    background-color: #2b2b2b;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer ul > li {
+    padding: 14px 0;
+  }
+  footer img {
+    margin: 14px 0;
+    width: 133px;
+  }
