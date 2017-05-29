@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+/*HEADER*/
+header {
+  border: 1px solid #000;
+}
+
+header .row {
+  padding: 35px 21px;
+}
+
+header #menu{
+  font-size: 21px;
+  color: #888888;
+}
