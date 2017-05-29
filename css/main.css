@@ -142,10 +142,31 @@
   }
   footer img {
     margin: 14px 0;
-    width: 133px;
+    width: 117px;
+  }
+  #footer-icons, #footer-logo {
+    display: inline-table!important;
   }
   /* Small devices (tablets, 768px and up) */
   @media (min-width:768px)  {
-
-    
+  /*FOOTER*/
+    footer {
+      padding: 64px 0;
+    }
+    #footer-first {
+      height: 60vh;
+    }
+    #footer-first ul {
+      position: absolute;
+      bottom: 0;
+    }
+    #footer-logo * {
+      display: block;
+    }
+    #footer-icons {
+      display: none!important;
+    }
+    #footer-logo {
+      top: 245px;
+    }
    }
