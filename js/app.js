@@ -1,13 +1,13 @@
 
-var map, laboratoria;
+var map, miUbicacion;
       function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {
           center: {lat: -34.397, lng: 150.644},
           zoom: 18
         });
-        laboratoria = new google.maps.InfoWindow;
+        miUbicacion = new google.maps.InfoWindow;
         var marker = new google.maps.Marker({
-          position: laboratoria,
+          position: miUbicacion,
           map: map
         });
         if (navigator.geolocation) {
@@ -17,14 +17,42 @@ var map, laboratoria;
               lng: position.coords.longitude
             };
 
-            laboratoria.setPosition(pos);
-            laboratoria.setContent('Te encuentras aquí');
-            laboratoria.open(map);
+            miUbicacion.setPosition(pos);
+            miUbicacion.setContent('Te encuentras aquí');
+            miUbicacion.open(map);
             map.setCenter(pos);
           }, function() {
-            handleLocationError(true, laboratoria, map.getCenter());
+            handleLocationError(true, miUbicacion, map.getCenter());
           });
         } else {
-          handleLocationError(false, laboratoria, map.getCenter());
+          handleLocationError(false, miUbicacion, map.getCenter());
         }
+
+
+
+        var inputPartida = document.getElementById("input-partida");
+        var inputDestino = document.getElementById("input-destino");
+
+        new google.maps.places.Autocomplete(inputPartida);
+        new google.maps.places.Autocomplete(inputDestino);
+
+        var directionsService = new google.maps.DirectionsService;
+        var directionsDisplay = new google.maps.DirectionsRenderer;
+        var calculateAndDisplayRoute = function(directionsService, directionsDisplay) {
+          directionsService.route ({
+            origin: inputPartida.value,
+            destination: inputDestino.value,
+            travelMode: 'DRIVING'
+          });
+        }
+
+        directionsDisplay.setMap(map);
+
+        var trazarRuta = function() {
+          calculateAndDisplayRoute(directionsService, directionsDisplay);
+
+        }
+        document.getElementById("trazar-ruta").addEventListener("click", trazarRuta)
+
+
       }
