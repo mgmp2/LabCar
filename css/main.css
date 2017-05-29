@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
 * {
   box-sizing: border-box;
   margin: 0;
+}
+/*GENERAL*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
+.color-lab {
+  background-color: #f7b617;
 }
 /*BANNER */
 #banner {
@@ -11,10 +18,13 @@
   border: 1px solid #000;
 }
 #download-app [class*="col-xs-10"]{
-  background: #F7B617;
   top: 155px;
   padding: 35px;
+  font-family: 'Raleway', sans-serif;
 }
  #download-app .btn-download {
    padding-top: 35px;
  }
+#download-app [type="button"] {
+  font-size: 19px;
+}
