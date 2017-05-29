@@ -99,4 +99,26 @@
     border: none;
     border-radius: 12px;
     padding: 9px 14px;
+}
+
+/*TARIFA*/
+
+  #rate * {
+    color: #fff;
+  }
+  .form-input {
+    display: inline-block;
+    width: 80%;
+    padding: 7px 14px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    margin: 14px;
+  }
+  #rate [type="button"] {
+    color: #000;
+    margin: 21px 0;
+  }
+  #rate p {
+    font-size: 18px;
   }
