@@ -7,8 +7,8 @@ Este proyecto es realizado con la finalidad de explotar lo aprendido durante el 
   - grillas de Bootstrap
   - Flexbox
   - Floating
-  - Maquetación hecho en mobile(se uso Galaxy5)
-  -
+  - Maquetación hecho en mobile(se uso Galaxy5) y desktop
+ 
 ```
 ## Desarrollado 
    ```sh
@@ -21,11 +21,13 @@ Este proyecto es realizado con la finalidad de explotar lo aprendido durante el 
 ## Muestra del Proyecto
 + Mobile  
   ![mobile](assets/screenshot/mobile-labcar.png)
+  
 + Mobile with nav 
   ![mobile](assets/screenshot/nav-mobile-labcar.png)
+  
  + Desktop
   ![mobile](assets/screenshot/desktop-labcar.png)
  
  
 
-`Nota`: Este proyecto está subido al GH-PAGES [website](https://mgmp2.github.io/LabCar/).
+`Nota`: Este proyecto está subido al GH-PAGES [aquí](https://mgmp2.github.io/LabCar/).
